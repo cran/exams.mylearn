@@ -1,0 +1,34 @@
+Question
+========
+Some R code:
+
+Some German characters äößü
+
+```{r, echo=TRUE, eval=FALSE}
+dat <- 1:20
+s <- 0
+for (i in seq_along(dat)) {
+  s <- s + dat[i]
+}
+```
+
+
+Answerlist
+----------
+* <pre> a &lt;- 1:10 <br/>
+print(a) </pre>
+
+* For some reason, code in the answerlist only works if it's already formatted as HTML
+* Three
+
+Solution
+========
+
+There is some feedback here.
+
+Meta-information
+================
+exname: R Code
+extype: mchoice
+exsolution: 100
+exshuffle: TRUE

@@ -1,0 +1,53 @@
+```{r setup, include=FALSE}
+tab <- mtcars[1:10, ]
+boxdat <- scale(1:30)
+```
+
+Question
+========
+What is the derivative of $f(x) = x^{`r 1`} e^{`r 2` x}$, evaluated at $x = `r 4`$?
+A formula is $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}.$$
+
+Here comes a table
+```{r, results='markup', eval=TRUE, echo=FALSE}
+knitr::kable(tab)
+```
+
+Here comes some R output:
+```{r, results='markup', eval=TRUE, echo=FALSE}
+t.test(1:10)
+```
+
+Some R code:
+```{r, echo=TRUE, eval=FALSE}
+dat <- 1:20
+s <- 0
+for (i in seq_along(dat)) {
+  s <- s + dat[i]
+}
+```
+
+Here's a boxplot
+```{r, fig.cap="", fig.width=7, fig.asp=1, out.width='600px', echo=FALSE}
+boxplot(boxdat, main = "Beauty")
+```
+
+Answerlist
+----------
+* `r fmt(1+1e-4)`
+* `Hey`
+* Yo
+* Foo
+* Bar
+
+Solution
+========
+
+Some feedback.
+
+Meta-information
+================
+exname: First Question
+extype: mchoice
+exsolution: 10000
+exshuffle: TRUE
