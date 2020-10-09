@@ -1,26 +1,13 @@
 ---
 title: "Generate Questions for MyLearn"
 output:
-  md_document:
-    variant: gfm
-    toc: true
-    toc_depth: 3
-  pdf_document:
-    toc: true
-    toc_depth: 3
-    number_sections: true
-  html_document:
-    toc: true
-    toc_depth: 3
-    number_sections: true
-    keep_md: true
   rmarkdown::html_vignette:
     toc: true
 vignette: >
   %\VignetteIndexEntry{Generate Questions for MyLearn}
   %\VignetteEncoding{UTF-8}
   %\VignetteEngine{knitr::rmarkdown}
-author: Darjus Hosszejni, WU Vienna
+author: "Darjus Hosszejni, WU Vienna"
 ---
 
 ```{r, include = FALSE}
@@ -181,4 +168,4 @@ Delete all exercises.
 
 # Maintainance
 
-Should you find bugs or request features, please use the [Issue tracker on Github](https://github.com/hdarjus/WU-MyLearn-QGen/issues).
+Should you find bugs or request features, please use the [Issue tracker on Github](https://github.com/hdarjus/exams.mylearn/issues).

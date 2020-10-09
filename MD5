@@ -1,12 +1,12 @@
-4adf9c8b048a5c5130431c6281ea5c71 *DESCRIPTION
+73065845e266666243cbfcf13d8242a3 *DESCRIPTION
 68dc17f1eca63b00a5912e5e75cb9ec1 *NAMESPACE
-5ce5e48542bc625196a396a8fb131ce9 *R/example_paths.R
-73232022424e17874e402dea2ae4e06f *R/exams.mylearn-package.R
-e93da1136010a0b6ba0fe12637790242 *R/exams2mylearn.R
-5a1c9ff0c8e7226d6d94e06ae58d17fc *build/vignette.rds
+f4ad7ef7762c71c466d01a2b78e9301b *R/example_paths.R
+3857637bc19a5e563e39da0d8d5d0d9b *R/exams.mylearn-package.R
+688a0693c6f26f1328df8f26e008b099 *R/exams2mylearn.R
+15d13e78cc76ae17978498caf745498f *build/vignette.rds
 41b3a3d885a6fc13c87377e38db86990 *inst/doc/workflow.R
-5e533ef7d4d91cabba12a8a753209b5d *inst/doc/workflow.Rmd
-582b3872cec5b20335479cad2e0125a9 *inst/doc/workflow.html
+a4443d724e2a5646cdd69944bb798ead *inst/doc/workflow.Rmd
+ffa36687a100d9091de9f5112c2f66ff *inst/doc/workflow.html
 0e487dec852f6439e2c5fb72c6744609 *inst/extdata/R-code.Rmd
 85e1c085c500adedc8bc90bd14a47c35 *inst/extdata/R-output.Rmd
 82a98aaf4e898c80ab15f564003a48b2 *inst/extdata/R-table.Rmd
@@ -19,4 +19,4 @@ ca92d1f02395a109617f154f1bf6f317 *inst/extdata/plot.Rmd
 d662348e5ae51dbbed67f2e88759763e *man/example_paths.Rd
 6b244bb8bc039166801d94fb2eb3619b *man/exams.mylearn-package.Rd
 97ef045cb36181833d8fdc7497341e30 *man/exams2mylearn.Rd
-5e533ef7d4d91cabba12a8a753209b5d *vignettes/workflow.Rmd
+a4443d724e2a5646cdd69944bb798ead *vignettes/workflow.Rmd
