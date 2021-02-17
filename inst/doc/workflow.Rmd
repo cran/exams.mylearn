@@ -3,11 +3,24 @@ title: "Generate Questions for MyLearn"
 output:
   rmarkdown::html_vignette:
     toc: true
+  md_document:
+    variant: gfm
+    toc: true
+    toc_depth: 3
+  pdf_document:
+    toc: true
+    toc_depth: 3
+    number_sections: true
+  html_document:
+    toc: true
+    toc_depth: 3
+    number_sections: true
+    keep_md: true
 vignette: >
   %\VignetteIndexEntry{Generate Questions for MyLearn}
   %\VignetteEncoding{UTF-8}
   %\VignetteEngine{knitr::rmarkdown}
-author: "Darjus Hosszejni, WU Vienna"
+author: Darjus Hosszejni, WU Vienna
 ---
 
 ```{r, include = FALSE}
@@ -16,6 +29,10 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 ```
+
+<!-- badges: start -->
+[![R CMD check](https://github.com/hdarjus/exams.mylearn/workflows/R-CMD-check/badge.svg)](https://github.com/hdarjus/exams.mylearn/actions)
+<!-- badges: end -->
 
 # Intro
 
@@ -29,6 +46,7 @@ Dependencies:
 * `libxml2`: found on popular Linux distros and in Rtools by default
 * `pandoc`: gets installed by `R` during installation
 * `R`: a recent version
+* on Windows: Rtools
 * popular `R` packages: installed automatically
 
 The question import functionality might have to be turned on by your MyLearn support team.
