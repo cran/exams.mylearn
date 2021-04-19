@@ -67,6 +67,9 @@ if (interactive()) {
                 distort.shortname = TRUE)
 }
 
+# For special characters, please check
+?special_characters
+
 # Takes some time:
 \dontrun{
 # Produce 500 exam questions in the current
